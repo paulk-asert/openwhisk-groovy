@@ -1,0 +1,20 @@
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+ext.groovyVersion = '3.0.0-beta-1'
+
+dependencies {
+    compile "org.codehaus.groovy:groovy:$groovyVersion"
+    compile 'com.google.code.gson:gson:2.8.1'
+}
+
+jar {
+     from {
+         configurations.compile.collect{ it.directory ? it : zipTree(it) }
+     }
+}
