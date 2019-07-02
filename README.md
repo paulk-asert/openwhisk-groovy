@@ -1,6 +1,7 @@
 # Creating a Groovy action for Apache OpenWhisk
 
-This is a minimum example to show how to run a Groovy based action on [Apache OpenWhisk](https://github.com/apache/incubator-openwhisk).
+This is a minimum example to show how to run an [Apache OpenWhisk](https://github.com/apache/incubator-openwhisk)
+based action on [Apache OpenWhisk](https://github.com/apache/incubator-openwhisk).
 
 ## Instructions:
 
